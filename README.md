@@ -1,4 +1,4 @@
-# **Reinforcement Learning from Scratch**
+# **Reinforcement Learning**
 
 ##  프로젝트 개요
 **딥러닝 밑바닥부터 시작하는 강화학습(4권)**을 기반으로  
