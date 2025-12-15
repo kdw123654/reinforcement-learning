@@ -11,6 +11,6 @@ Multi-Armed Bandit부터 바둑 에이전트까지 단계적으로 구현한다.
 3.self.Qs[action] += (reward - self.Qs[action]) / self.ns[action]이 코드는 표본 평균으로 큰 수의 법칙에 다라 시행 횟수가 늘어날수록 진짜 보상값에 가까워진다.
 
 ### alphaagent
-1.alpha값이 클수록 최근 행동에 대한 가중치가 커짐 즉, 많은 학습을 함
-2.alpha값이 작을수록 과거 행동에 대한 영향력이 커짐
+1.alpha값이 클수록 최근 행동에 대한 가중치가 커짐 즉, 많은 학습을 함<br>
+2.alpha값이 작을수록 과거 행동에 대한 영향력이 커짐<br>
 3.alpha는 epsilon이 결정한 행동을 얼마나 믿을지의 개념
