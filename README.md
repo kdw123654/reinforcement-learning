@@ -15,5 +15,7 @@ Multi-Armed Bandit부터 바둑 에이전트까지 단계적으로 구현한다.
 2.alpha값이 작을수록 과거 행동에 대한 영향력이 커짐<br>
 3.alpha는 epsilon이 결정한 행동을 얼마나 믿을지의 개념
 
+### gridworld
+
 <img width="450" height="330" alt="image" src="https://github.com/user-attachments/assets/97c9d3e4-e6bf-4417-8800-eaf1717750f1" />
 
