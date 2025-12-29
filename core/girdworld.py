@@ -172,3 +172,16 @@ if __name__ == "__main__":
     V_vi = defaultdict(lambda: 0)
     final_V = value_iter(V_vi, env, gamma)
     env.render_v(final_V)
+
+
+=== Policy Iteration Result ===
+  0.81   0.90   1.00   0.00 
+  0.73   ###    0.90   1.00 
+  0.66   0.73   0.81   0.73 
+
+
+=== Value Iteration Result ===
+Value Iteration Converged!
+  0.81   0.90   1.00   0.00 
+  0.73   ###    0.90   1.00 
+  0.66   0.73   0.81   0.73 
